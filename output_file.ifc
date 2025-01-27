@@ -1,0 +1,42 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('Created by Aspose.CAD'),'2;1');
+FILE_NAME('Aspose.CAD','2025-01-25T11:50:44',('Aspose'),('Aspose'),'','','');
+FILE_SCHEMA(('IFC2X3'));
+ENDSEC;
+DATA;
+#18=IfcRelContainedInSpatialStructure($,$,$,$,(#17),#12)
+#17=IfcBuildingElementProxy('f6322a785abe41ec8536ecad53431afe',$,$,$,$,#14,#16,$,$)
+#16=IfcProductDefinitionShape($,$,(#15))
+#15=IfcShapeRepresentation(#10,'Model','Model',())
+#14=IfcLocalPlacement($,#8)
+#13=IfcRelAggregates($,$,$,$,#11,(#12))
+#12=IfcSite('75bf839cc4f343248bb14eedb5760138',$,$,$,$,$,$,$,.ELEMENT.,$,$,$,$,$)
+#11=IfcProject('460e9f25a1f145f9917423813f4285d6',$,$,$,$,$,$,(#10),#4)
+#10=IfcGeometricRepresentationContext($,'Model',3,1.E-05,#8,#9)
+#9=IfcDirection((0.,1.))
+#8=IfcAxis2Placement3D(#7,#6,#5)
+#7=IfcCartesianPoint((0.,0.,0.))
+#6=IfcDirection((0.,0.,1.))
+#5=IfcDirection((1.,0.,0.))
+#4=IfcUnitAssignment((#1,#2,#3))
+#3=IfcSIUnit(*,.PLANEANGLEUNIT.,$,.RADIAN.)
+#2=IfcSIUnit(*,.AREAUNIT.,$,.SQUARE_METRE.)
+#1=IfcSIUnit(*,.LENGTHUNIT.,$,.METRE.)
+#19=IfcBuildingElementProxy('f6322a785abe41ec8536ecad53431afe',$,'Wall',$,$,#14,#16,$,$)
+#20=IfcPropertySingleValue('InsulationMaterial',$,.STRING.,'Spray Foam')
+#21=IfcPropertySingleValue('WindowType',$,.STRING.,'Triple-Glazed')
+#22=IfcRelDefinesByProperties($,$,$,(#1),(#2,#3))
+#23=IfcBuildingElementProxy('1234567890abcdef',$,'Roof',$,$,#14,#16,$,$)
+#24=IfcPropertySingleValue('GreenRoof',$,.STRING.,'Yes')
+#25=IfcPropertySingleValue('RoofMaterial',$,.STRING.,'Concrete')
+#26=IfcRelDefinesByProperties($,$,$,(#5),(#6,#7))
+#27=IfcBuildingElementProxy('fedcba9876543210',$,'Foundation',$,$,#14,#16,$,$)
+#28=IfcPropertySingleValue('FoundationType',$,.STRING.,'Elevated')
+#29=IfcPropertySingleValue('Material',$,.STRING.,'Concrete')
+#30=IfcRelDefinesByProperties($,$,$,(#9),(#10,#11))
+#31=IfcBuildingElementProxy('abcdef1234567890',$,'HVAC',$,$,#14,#16,$,$)
+#32=IfcPropertySingleValue('SystemType',$,.STRING.,'Heat Pump')
+#33=IfcPropertySingleValue('SEER',$,.REAL.,18)
+#34=IfcPropertySingleValue('AFUE',$,.REAL.,95)
+#35=IfcRelDefinesByProperties($,$,$,(#13),(#14,#15,#16))
